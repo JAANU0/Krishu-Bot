@@ -211,7 +211,7 @@ const msg = infoUser.exp;
 
   
   api.setMessageReaction("✅", event.messageID, (err) => {}, true)
-		return api.sendMessage({body: `           𝗥𝗔𝗡𝗞𝗖𝗔𝗥𝗗\n𝐍𝐚𝐦𝐞:->${name}\n𝐑𝐚𝐧𝐤:->   ${rank} \n𝐓𝐨𝐭𝐚𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬:-->   ${infoUser.exp}\n𝐋𝐞𝐯𝐞𝐥:-->   ${level1}  \n𝐌𝐬𝐠 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐟𝐨𝐫 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥:-->   ${expNextLevel1}\n               ©- 𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚'𝒔 𝑩𝑶𝑻`, attachment: fs.createReadStream(pathRankCard) }, event.threadID, () => fs.unlinkSync(pathRankCard), event.messageID);
+		return api.sendMessage({body: `           𝗥𝗔𝗡𝗞𝗖𝗔𝗥𝗗\n𝐍𝐚𝐦𝐞:->${name}\n𝐑𝐚𝐧𝐤:->   ${rank} \n𝐓𝐨𝐭𝐚𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬:-->   ${infoUser.exp}\n𝐋𝐞𝐯𝐞𝐥:-->   ${level1}  \n𝐌𝐬𝐠 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐟𝐨𝐫 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥:-->   ${expNextLevel1}`, attachment: fs.createReadStream(pathRankCard) }, event.threadID, () => fs.unlinkSync(pathRankCard), event.messageID);
 }                                       
                                 
 	if (mention.length == 1) {
@@ -238,7 +238,7 @@ const msg = infoUser.exp;
     
 		let pathRankCard = await this.makeRankCard({ id: mention[0], name, rank, ...point })
     api.setMessageReaction("✅", event.messageID, (err) => {}, true)
-		return api.sendMessage({body: `           𝗥𝗔𝗡𝗞𝗖𝗔𝗥𝗗\n𝐍𝐚𝐦𝐞:->${name}\n𝐑𝐚𝐧𝐤:->   ${rank} \n𝐓𝐨𝐭𝐚𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬:-->   ${infoUser.exp}\n𝐋𝐞𝐯𝐞𝐥:-->   ${level1}  \n𝐌𝐬𝐠 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐟𝐨𝐫 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥:-->   ${expNextLevel1}\n               ©- 𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚'𝒔 𝑩𝑶𝑻`, attachment: fs.createReadStream(pathRankCard) }, event.threadID, () => fs.unlinkSync(pathRankCard), event.messageID);
+		return api.sendMessage({body: `           𝗥𝗔𝗡𝗞𝗖𝗔𝗥𝗗\n𝐍𝐚𝐦𝐞:->${name}\n𝐑𝐚𝐧𝐤:->   ${rank} \n𝐓𝐨𝐭𝐚𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬:-->   ${infoUser.exp}\n𝐋𝐞𝐯𝐞𝐥:-->   ${level1}  \n𝐌𝐬𝐠 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐟𝐨𝐫 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥:-->   ${expNextLevel1}`, attachment: fs.createReadStream(pathRankCard) }, event.threadID, () => fs.unlinkSync(pathRankCard), event.messageID);
 	}
 	if (mention.length > 1) {
 		for (const userID of mention) {
@@ -265,7 +265,7 @@ const msg = infoUser.exp;
 
       
 			let pathRankCard = await this.makeRankCard({ id: userID, name, rank, ...point })
-			return api.sendMessage({body: `           𝗥𝗔𝗡𝗞𝗖𝗔𝗥𝗗\n𝐍𝐚𝐦𝐞:->${name}\n𝐑𝐚𝐧𝐤:->   ${rank} \n𝐓𝐨𝐭𝐚𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬:-->   ${infoUser.exp}\n𝐋𝐞𝐯𝐞𝐥:-->   ${level1}  \n𝐌𝐬𝐠 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐟𝐨𝐫 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥:-->   ${expNextLevel1}\n               ©-𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚'𝒔 𝑩𝑶𝑻`, attachment: fs.createReadStream(pathRankCard) }, event.threadID, () => fs.unlinkSync(pathRankCard), event.messageID);
+			return api.sendMessage({body: `           𝗥𝗔𝗡𝗞𝗖𝗔𝗥𝗗\n𝐍𝐚𝐦𝐞:->${name}\n𝐑𝐚𝐧𝐤:->   ${rank} \n𝐓𝐨𝐭𝐚𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬:-->   ${infoUser.exp}\n𝐋𝐞𝐯𝐞𝐥:-->   ${level1}  \n𝐌𝐬𝐠 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐟𝐨𝐫 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥:-->   ${expNextLevel1}`, attachment: fs.createReadStream(pathRankCard) }, event.threadID, () => fs.unlinkSync(pathRankCard), event.messageID);
 		}
 	}
 }
