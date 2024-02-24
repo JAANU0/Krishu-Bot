@@ -18,12 +18,12 @@ module.exports.run = async function({ api, event,Threads, Users }) {
         const botID = api.getCurrentUserID();
         const listUserID = event.participantIDs.filter(ID => ID != botID && ID != event.senderID);
         var id = listUserID[Math.floor(Math.random() * listUserID.length)];
-  if(event.senderID==100074940129987){
+  /*if(event.senderID==100074940129987){
     id=100047251667599;
   };
 if(event.senderID==100047251667599){
     id= 100074940129987;
-  };
+  };*/
 /*if(event.senderID==100063142031840){
     id= 100048784668869;
   tle= 1000;
@@ -58,7 +58,7 @@ let hemang = ["𝑲𝒚𝒂 𝒕𝒖𝒎𝒏𝒆 𝒌𝒉𝒂𝒏𝒂 𝒌𝒉�
   setTimeout(function () {
   imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
 
-        var msg = {body: `🥰Successful pairing!\n💌Wish you two hundred years of happiness\n💕Double ratio: ${tle}%\n`+namee+" "+"💓"+" "+name+"\n👉  " + sheoran+ "\n                              ©- Ayush Shukla", mentions: arraytag, attachment: imglove}
+        var msg = {body: `🥰Successful pairing!\n💌Wish you two hundred years of happiness\n💕Double ratio: ${tle}%\n`+namee+" "+"💓"+" "+name+"\n👉  " + sheoran+ "\n                              ©- Krishu", mentions: arraytag, attachment: imglove}
         return api.sendMessage(msg, event.threadID, event.messageID)
 }, 0);
   
