@@ -314,11 +314,11 @@ if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsim"
    };
 
 
-  if ((event.body.indexOf("Ayush") >= 0)||(event.body.indexOf("ayush")  >= 0)||(event.body.toLowerCase() == "AYUSH")|| (event.body.toLowerCase() == "Ayush ji") || (event.body.toLowerCase() == "AYUSH JI") ||(event.body.toLowerCase() == "ayush ji") || (event.body.toLowerCase() == "jiju") || (event.body.toLowerCase() == "Ayush ji")) {
+  /*if ((event.body.indexOf("Ayush") >= 0)||(event.body.indexOf("ayush")  >= 0)||(event.body.toLowerCase() == "AYUSH")|| (event.body.toLowerCase() == "Ayush ji") || (event.body.toLowerCase() == "AYUSH JI") ||(event.body.toLowerCase() == "ayush ji") || (event.body.toLowerCase() == "jiju") || (event.body.toLowerCase() == "Ayush ji")) {
      return api.sendMessage( "𝑶𝒏𝒍𝒊𝒏𝒆 𝒉𝒐𝒈𝒂 𝒕𝒐 𝒓𝒆𝒑𝒍𝒚 𝒌𝒓𝒅𝒆𝒈𝒂 𝒏𝒉𝒊 𝒌𝒊𝒚𝒂 𝒕𝒐 𝑯𝒐 𝒔𝒌𝒕𝒂 𝒉 𝒌𝒊 𝒐𝒇𝒇𝒍𝒊𝒏𝒆 𝒉𝒐 𝒆𝒔𝒆 𝒎 𝒂𝒂𝒑 𝒖𝒏𝒌𝒊 𝒊𝒅 𝒑 𝒎𝒔𝒈 𝒌𝒓 𝒔𝒌𝒕𝒆 𝒉 \n 𝑰𝑫 𝑳𝑰𝑵𝑲 =>\n  https://www.facebook.com/100042292561861",threadID, messageID);
 
        
-   };
+   };*/
 
  if ((event.body.indexOf("Ghnta") >= 0 ) ||(event.body.indexOf("ghnta") >= 0 ) || (event.body.toLowerCase() == "ghnta") || (event.body.toLowerCase() == "ghnta bc") || (event.body.toLowerCase() == "gnta") || (event.body.toLowerCase() == "gnta bc")) {
      return api.sendMessage( "Kya hota h ye ghnta vnta hme bhi btao 😁😁😂",threadID, messageID);
@@ -329,9 +329,9 @@ if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsim"
 
 
   
- if ((event.body.indexOf("owner") >= 0 ) || (event.body.toLowerCase() == "create you")) {
+ /*if ((event.body.indexOf("owner") >= 0 ) || (event.body.toLowerCase() == "create you")) {
      return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚☜ \n 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Ayush Shukla. \n 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- \n https://www.facebook.com/100042292561861?mibextid=ZbWKwL", threadID, messageID);
-   };
+   };*/
 
   
    if ((event.body.toLowerCase() == "is the bot sad") || (event.body.toLowerCase() == "is the bot sad")) {
@@ -407,10 +407,10 @@ if (event.body.indexOf("hme nhi milna bot") >= 0 || (event.body.indexOf("nhi mil
 
   if (event.body.indexOf("bot") >= 0 || (event.body.indexOf("Bot") >= 0)) {
     var msg = {
-      body: `🌹🍂 ${name} 🌹🍂,   ${rand}       🌿🚩\n                          ©-𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚`
+      body: `🌹🍂 ${name} 🌹🍂,   ${rand}       🌿🚩`
     }
     api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🙋", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🤧", event.messageID, (err) => {}, true)
   }
 
 }
