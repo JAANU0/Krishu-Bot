@@ -24,27 +24,21 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Kolkata").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.postimg.cc/ryDmjPVC/e570b625bace67908c06a3bb9447f5b1.jpg",
-      "https://i.postimg.cc/25CRtV4N/da83ff5997b44d3f4b1924407422b0c6.jpg",
-      "https://i.postimg.cc/LsvKF2TY/c1bf427a39294c5b3ac599e3d1cbbf35.jpg",
-      "https://i.postimg.cc/9MN6zbsc/0a8263ea2c2ed4674343be7b59430b07.jpg",
-      "https://i.postimg.cc/MTTkWNPs/0123c5e2f254648f74730d37e45d370b.jpg"];
+["https://i.postimg.cc/rmmCkyBf/e289ced006513c7068ea2b261e99e54a.jpg"];
 var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
 (⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚💔🥀
+🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ KRISHU💔🥀
 
-🙈bot andmin owner facebook id link🙈➪ www.facebook.com/100042292561861 💞🕊️
-
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @Ayush0249😇
+🙈bot andmin owner facebook id link🙈➪ www.facebook.com/100080044402862 💞🕊️
 
 ✧══════•❁❀❁•══════✧
 
 🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚
+♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ KRISHU
 
 🥳UPTIME🥳
 
@@ -57,7 +51,7 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✰🍒𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚🌿✰✧✧✧✦🌸
+🌸✦✧✧✧✰🍒   KRISHU   🌿✰✧✧✧✦🌸
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 
 
