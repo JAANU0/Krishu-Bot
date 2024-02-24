@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "level",
+	name: "rank",
 	version: "1.0.0",
 	hasPermssion: 0,
 	credits: "Clarence-DK", 
